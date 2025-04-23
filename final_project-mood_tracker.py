@@ -322,7 +322,7 @@ mood_menu.config(font=font_text, bg="lightblue", fg="black")
 mood_menu["menu"].config(font=font_text, bg="lightblue", fg="black")
 mood_menu.pack(fill="x", pady=5)
 
-tk.Label(root, text="Ocjeni dan (1-10):", font=font_title, bg="#e0f2f7").pack(anchor="w", pady=10)
+tk.Label(root, text="Ocijeni dan (1-10):", font=font_title, bg="#e0f2f7").pack(anchor="w", pady=10)
 scale_rating = tk.Scale(root, from_=1, to=10, orient="horizontal", bg="#f0f8ea", fg="green", font=font_text)
 scale_rating.set(5)
 scale_rating.pack(fill="x")
