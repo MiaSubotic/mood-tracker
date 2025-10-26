@@ -64,7 +64,7 @@ def draw_happy_face():
     t.circle(100)
     t.end_fill()
 
-    # Levo oko
+    # Lijevo oko
     t.penup()
     t.goto(-35, 40)
     t.dot(20, "black")
@@ -73,7 +73,7 @@ def draw_happy_face():
     t.goto(35, 40)
     t.dot(20, "black")
 
-    # Osmeh
+    # Osmijeh
     t.penup()
     t.goto(-40, -20)
     t.setheading(-60)
@@ -99,7 +99,7 @@ def draw_sad_face():
     t.circle(100)
     t.end_fill()
 
-    # Levo oko
+    # Lijevo oko
     t.penup()
     t.goto(-35, 40)
     t.dot(20, "black")
@@ -133,7 +133,7 @@ def draw_tired_face():
     t.penup()
     t.goto(0, -100)
     t.pendown()
-    t.fillcolor("#f5e642")  # bleda žuta
+    t.fillcolor("#f5e642")  # blijeda žuta
     t.begin_fill()
     t.circle(100)
     t.end_fill()
